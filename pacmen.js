@@ -5,7 +5,7 @@ const pacArray = [
 ];
 var direction = 0;
 const pacMen = [];
-// Array that holds the PacMen
+// Array that holds PacMen
 
 function setToRandom(scale) {
     return {
