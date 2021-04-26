@@ -10,8 +10,8 @@ const pacMen = [];
 function setToRandom(scale) {
     return {
         x: Math.random() * scale,
-        y: Math.random() * scale
-    }
+        y: Math.random() * scale,
+    };
 }
     // Factory to make PacMan at a random position with random velocity
 function makePac() {
@@ -43,7 +43,7 @@ function makePac() {
         position,
         velocity,
         newimg
-    }
+    };
 }
 
 function update() {
@@ -57,7 +57,7 @@ function update() {
 
         item.newimg.style.left = item.position.x;
         item.newimg.style.top = item.position.y;
-    })
+    });
     setTimeout(update, 20);
 }
 
@@ -76,7 +76,7 @@ function checkCollisions(item) {
         };        
 };
 
-//* Will add a new PacMan
+// Will add a new PacMan
 function makeOne() {
     pacMen.push(makePac()); 
 }
