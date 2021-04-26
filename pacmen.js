@@ -13,7 +13,7 @@ function setToRandom(scale) {
         y: Math.random() * scale
     }
 }
-    // Factory to make a PacMan at a random position with random velocity
+    // Factory to make PacMan at a random position with random velocity
 function makePac() {
     //
     // Returns an object with random values scaled {x: 33, y: 21}
